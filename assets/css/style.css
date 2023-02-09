@@ -68,7 +68,7 @@ header nav ul li a {
 }
 
 #about-me h1{
-    color: whitesmoke;
+    color: hwb(164 4% 41%);
     font-size: 3em;
 }
 
@@ -79,14 +79,34 @@ header nav ul li a {
 }
 
 #work h1 {
-    color: whitesmoke;
+    color: hwb(164 4% 41%);
     font-size: 3em;
+    text-align: center;
 }
 
-#work p {
+.mainrow {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3vh;
+    position: relative;
+}
+
+.project-one {
+    position: absolute;
+    bottom: 8px;
+    right: 30vw;
     color: whitesmoke;
-    justify-content: space-between;
-    width: 700px;
+}
+
+.mainrow:hover img {
+    opacity: 0.3;
+}
+
+.imagerow {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 3vh;
 }
 
 #contact h1 {
@@ -103,6 +123,11 @@ header nav ul li a {
   }
   #contact .contact-items {
     width: 100%;
+  }
+
+  .contact-items {
+    display: flex;
+    justify-content: center;
   }
   #contact .contact-item {
     width: 80%;
