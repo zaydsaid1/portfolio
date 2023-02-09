@@ -40,6 +40,12 @@ header nav ul li a {
     font-size:2.5rem;
     height:100vh;
 }
+
+.cta {
+    color: hwb(164 4% 41%);
+    text-align:center;
+    position: relative;
+}
 #title-div{
     margin-top:10vh;
     margin-left: 150px;
@@ -53,35 +59,27 @@ header nav ul li a {
     margin-bottom: 3vh;
 }
 
-.cta {
-  display: inline-block;
-  padding: 10px 30px;
-  color: whitesmoke(35, 214, 41);
-  background-color: whitesmoke;
-  border: 2px solid rgb(47, 212, 88);
-  font-size: 2rem;
-  text-transform: uppercase;
-  letter-spacing: 0.1rem;
-  margin-top: 30px;
-  transition: 0.3s ease;
-  transition-property: all;
-}
-
 #about-me h1{
     color: hwb(164 4% 41%);
     font-size: 3em;
+    text-align: center;
+    margin-bottom: 20px;
 }
 
 #about-me p {
     color: whitesmoke;
     justify-content: space-between;
     width: 700px;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 40px;
 }
 
 #work h1 {
     color: hwb(164 4% 41%);
     font-size: 3em;
     text-align: center;
+    margin-bottom: 20px;
 }
 
 .mainrow {
@@ -94,11 +92,35 @@ header nav ul li a {
 .project-one {
     position: absolute;
     bottom: 8px;
-    right: 30vw;
+    left: 30vw;
     color: whitesmoke;
 }
 
-.mainrow:hover img {
+.project-two {
+    color: whitesmoke;
+    bottom: 30px;
+    position: relative;
+}
+
+.project-three {
+    color: whitesmoke;
+    bottom: 30px;
+    position: relative;
+}
+
+.project-four {
+    color: whitesmoke;
+    bottom: 30px;
+    position: relative;
+}
+
+.project-five {
+    color: whitesmoke;
+    bottom: 30px;
+    position: relative;
+}
+
+.mainrow img:hover {
     opacity: 0.3;
 }
 
@@ -109,9 +131,26 @@ header nav ul li a {
     margin-bottom: 3vh;
 }
 
+.img2:hover {
+    opacity: 0.15;
+}
+
+.img3:hover {
+    opacity: 0.15;
+}
+
+.img4:hover {
+    opacity: 0.15;
+}
+
+.img5:hover {
+    opacity: 0.15;
+}
+
 #contact h1 {
-    color: whitesmoke;
+    color: hwb(164 4% 41%);
     font-size: 3rem;
+    text-align: center;
 }
 
 #contact .contact {
